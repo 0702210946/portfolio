@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.html-icon {
+  background-color: #e34c26;
+}
+
+.css-icon {
+  background-color: #264de4;
+}
+
+.js-icon {
+  background-color: #f0db4f;
+}
+
+.react-icon {
+  background-color: #61dbfb;
+}
+
+.python-icon {
+  background-color: #3776ab;
+}
+.skill-bar {
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-bar::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+}
+.html::before {
+  width: 90%;
+  background: #e34c26;
+}
+
+.css::before {
+  width: 85%;
+  background: #264de4;
+}
+
+.js::before {
+  width: 80%;
+  background: #f0db4f;
+}
+
+.react::before {
+  width: 75%;
+  background: #61dbfb;
+}
+
+.python::before {
+  width: 70%;
+  background: #3776ab;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+}
+
+</style>
+<body>
+    <header>
+        <h1>My Skills</h1>
+    </header>
+    <section class="intro">
+        <p>I am a proficient web developer with experience in both frontend and backend technologies. Below are the core skills that I have mastered.</p>
+    </section>
+
+    <section class="skills">
+        <div class="skill-card">
+            <div class="skill-icon html-icon"></div>
+            <h3>HTML</h3>
+            <p>Proficient in structuring web content with HTML5.</p>
+            <div class="skill-bar html"></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon css-icon"></div>
+            <h3>CSS</h3>
+            <p>Experienced in styling web pages with CSS3.</p>
+            <div class="skill-bar css"></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon js-icon"></div>
+            <h3>JavaScript</h3>
+            <p>Skilled in creating dynamic web pages with JavaScript.</p>
+            <div class="skill-bar js"></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon react-icon"></div>
+            <h3>React</h3>
+            <p>Experienced in building interactive UIs with React.</p>
+            <div class="skill-bar react"></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon python-icon"></div>
+            <h3>Python</h3>
+            <p>Proficient in backend development with Python.</p>
+            <div class="skill-bar python"></div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Portfolio.2024 My Portfolio.My first Hackathon.</p>
+    </footer>
+</body>
+</html>

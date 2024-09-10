@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* Resetting some default styles */
+body, h1, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Interests Section */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.interest-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.interest-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.interest-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Interest Icons (Placeholder for actual images/icons) */
+.interest-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Placeholder icon styles */
+.reading-icon {
+  background-color: #8e44ad;
+}
+
+.coding-icon {
+  background-color: #3498db;
+}
+
+.traveling-icon {
+  background-color: #e67e22;
+}
+
+.music-icon {
+  background-color: #e74c3c;
+}
+
+.gaming-icon {
+  background-color: #2ecc71;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+}
+
+</style>
+<body>
+    <header>
+        <h1>My Interests</h1>
+    </header>
+    <section class="intro">
+        <p>Here are some of the things I'm passionate about and enjoy in my free time.</p>
+    </section>
+
+    <section class="interests">
+        <div class="interest-card">
+            <div class="interest-icon reading-icon"></div>
+            <h3>Reading</h3>
+            <p>I love immersing myself in books, especially in the genres of fiction and self-improvement.</p>
+        </div>
+        <div class="interest-card">
+            <div class="interest-icon coding-icon"></div>
+            <h3>Coding</h3>
+            <p>Programming is not just a profession but a hobby, as I enjoy solving problems and building applications.</p>
+        </div>
+        <div class="interest-card">
+            <div class="interest-icon traveling-icon"></div>
+            <h3>Traveling</h3>
+            <p>Exploring new places and cultures is something I cherish. It broadens my perspective and inspires me.</p>
+        </div>
+        <div class="interest-card">
+            <div class="interest-icon music-icon"></div>
+            <h3>Music</h3>
+            <p>Listening to music and occasionally playing instruments helps me relax and fuels my creativity.</p>
+        </div>
+        <div class="interest-card">
+            <div class="interest-icon gaming-icon"></div>
+            <h3>Gaming</h3>
+            <p>Playing video games is a great way for me to unwind and connect with friends.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. 2024 My Portfolio.My first Hackathon.</p>
+    </footer>
+</body>
+</html>

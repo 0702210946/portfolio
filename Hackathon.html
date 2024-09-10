@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* Resetting some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* About Section */
+.about {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about p {
+  margin-bottom: 10px;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* Education Section */
+.education {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.education ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.education ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+}
+
+</style>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li onclick="
+            window.location.href = 'projects.html'
+            "><a href="#">Projects</a></li>
+            <li onclick="
+            window.location.href = 'skills.html'
+            "><a href="#">Skills</a></li>
+            <li onclick="
+            window.location.href = 'contact.html'
+            "><a href="#">Contact</a></li>
+           
+            <li onclick="
+            window.location.href = 'intrests.html'
+            "><a href="#">Intrest</a></li>
+            <li onclick="
+            window.location.href = 'education.html'
+            "><a href="#">Education</a></li>
+        </ul>
+    </nav>
+
+    <section class="intro">
+        <h2>Welcome!</h2>
+        <p>I'm an aspiring IT professional with a strong background in Information Technology and a passion for software development.</p>
+    </section>
+
+    <section class="about">
+        <h2>My Journey</h2>
+        <p>I am currently pursuing a Diploma in Information Technology, building on my foundational knowledge and skills in the IT field. My journey started with a Certificate in Information Technology, where I learned the fundamentals of computing, networking, and basic programming. I am also studying Software Engineering to further enhance my programming and development skills, with a focus on building efficient and scalable applications.</p>
+        
+        <p>My academic pursuits are complemented by practical experience and projects that have allowed me to apply what I've learned in real-world scenarios. I am constantly exploring new technologies and methodologies to stay at the forefront of the industry.</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Diploma in Information Technology</strong> - Currently Pursuing</li>
+            <li><strong>Certificate in Information Technology</strong> - Completed</li>
+            <li><strong>Software Engineering</strong> - Currently Studying</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. 2024 My Portfolio.My first Hackathon.</p>
+    </footer>
+</body>
+</html>
